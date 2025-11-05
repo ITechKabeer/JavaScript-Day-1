@@ -1,6 +1,6 @@
 document.title = "Signup Form"
 let body = document.body;
-body.style.height =  "97vh";
+body.style.minHeight =  "100vh";
 body.style.background =  "linear-gradient(135deg, #eafbff, #e8f0f5, #e0e6eb)";
 body.style.display =  "flex";
 body.style.alignItems =  "center";
