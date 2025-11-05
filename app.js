@@ -220,6 +220,15 @@ for(i = 0; i < button_signup.length; i++){
     )  
 }
 
+let footer = document.createElement("footer")
+footer.innerHTML = "Made by Kabeer Hussain ❤️ || Mern Stack Learner"
+footer.style.width = "100%"
+footer.style.color = "black"
+footer.style.margin = "20px auto 0 auto"
+footer.style.textAlign = "center"
+footer.style.fontSize = "16px"
+container.append(footer)
+
 let dark = false;
 themebtn.addEventListener("click", () => {
   dark = !dark;
@@ -244,7 +253,8 @@ themebtn.addEventListener("click", () => {
     for(i = 0; i < privacy.length; i++){
     privacy[i].style.color = "#7b49f7ff";
     }
-  } else {
+    footer.style.color = "white";
+} else {
     document.body.style.background = "linear-gradient(135deg, #eafbff, #e8f0f5, #e0e6eb)";
     container.style.background = "#fff";
     container.style.boxShadow = "0 0 15px rgba(0, 0, 0, 0.30)";
@@ -252,15 +262,16 @@ themebtn.addEventListener("click", () => {
     themebtn.innerText = "🌙 Dark Mode";
     div.style.color = "black"
     for(i = 0; i < div_input2.length; i++){
-    div_input2[i].style.color = "black"
+        div_input2[i].style.color = "black"
     }
     for(i = 0; i < input.length; i++){
-    input[i].addEventListener("focus", function(){
-        this.style.border = "2px solid #07abff";
-    })
-    input[i].addEventListener("blur", function(){
-        this.style.border = "2px solid #ccc";
-    })
+        input[i].addEventListener("focus", function(){
+            this.style.border = "2px solid #07abff";
+        })
+        input[i].addEventListener("blur", function(){
+            this.style.border = "2px solid #ccc";
+        })
     }
+    footer.style.color = "black";
   }
 });
