@@ -1,0 +1,16 @@
+@media (max-width: 599px){
+    h1 {
+       font-size: 22px; 
+    }
+    .div-class{
+        width: 75% !important;
+        max-width: 500px !important;
+    }
+    .input-container2{
+        font-size: 12px !important;
+        grid-column: 1 / -1 !important;
+    }
+    .button-design{
+        grid-column: 1 / -1 !important;
+    }
+}
