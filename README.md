@@ -1,5 +1,6 @@
 # Signup Form (JavaScript Day 1)
-**Live Demo:** [Click Here](#)
+### 🌐 Live Demo  
+👉 [Sign-Up Form]((https://sign-up-form-lilac-iota.vercel.app))
 
 A modern and fully dynamic **Signup Form** created **purely with JavaScript DOM manipulation**, styled using **CSS for responsiveness**.  
 No static HTML file was written — every element was created, styled, and managed using JavaScript!
@@ -47,7 +48,7 @@ This project helps you master:
 ---
 
 ## 📸 Preview
-*(Add a screenshot or GIF of your signup form here once hosted)*
+![App Preview](Demo.png)
 
 ---
 
