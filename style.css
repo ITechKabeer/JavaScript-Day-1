@@ -5,6 +5,7 @@
     .div-class{
         width: 75% !important;
         max-width: 500px !important;
+        margin: 40px auto;
     }
     .input-container2{
         font-size: 12px !important;
